@@ -74,6 +74,7 @@ footer {
 .mid-body {
   background-color: whitesmoke;
   /*margin: 3% 0px 20% 0px;*/
+  margin-bottom: 20%;
   border: 1px solid #b6b8ac;
 }
 
@@ -132,24 +133,24 @@ form, input, select {
 }
 
  /* gallery styles */
-.gallery {
+/* .gallery {
   margin: 10px;
   background-color: whitesmoke;
-}
+} */
 
 .gallery-img {
   height: auto;
   overflow: hidden;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   max-width: 100%;
   max-height: auto;
 }
 
 .img-caption {
-  background-color: #572741;
+  /* background-color: #572741; */
   font-family: Georgia, serif;
   font-size: 24px;
-  padding: 12px;
+  /* padding: 12px; */
   color: whitesmoke;
   /* position: absolute; */
   bottom: 10px;
@@ -159,4 +160,8 @@ form, input, select {
 
 #page-container {
   min-height: 100vh;
+}
+
+#img-btn {
+  background-color: #572741;
 }
